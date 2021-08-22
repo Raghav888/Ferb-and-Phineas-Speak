@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferb and Phineas Speak</title>
+    <style>
+        textarea {
+            width: 50%;
+            height: 20vh;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        
+        #output {
+            width: 50%;
+            height: 20vh;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        
+        .button {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        #btn-tran {
+            background-color: #728FCE;
+            font-weight: 700;
+            width: 10%;
+            height: 5vh;
+        }
+        
+        .header {
+            background-color: #728FCE;
+            padding: 1px;
+            text-align: center;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: #728FCE;
+            margin-top: 10px;
+            padding: 40px;
+            text-align: center;
+            color: black;
+            font-weight: 700;
+        }
+        
+        #img_o {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            width: 20%;
+            border-radius: 50%;
+            animation: disappear 0s linear 3s forwards;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Ferb and Phineas Speak</h1>
+    </div>
+    <textarea placeholder="Enter sentence" id="inputdata"></textarea>
+    <div class="button">
+        <button id="btn-tran">Translate</button>
+    </div>
+    <div id="output"></div>
+    <img id="img_o" src="">
+    <footer>
+        <p>Thanks for Visiting!!!</p>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+
+</body>
+
+</html>
