@@ -19,6 +19,6 @@ function messgae() {
     then(json => { out.innerText = json.contents.translated }).catch(errorHandler)
 
     document.getElementById("img_o").src = "thumbsup.gif"
-    setTimeout(hideElement, 4000)
+    setTimeout(hideElement, 3000)
 }
 btnTranslate.addEventListener("click", messgae, false)
